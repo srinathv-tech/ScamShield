@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScamShield - Digital Fraud Awareness for Everyone</title>
+  <meta name="description" content="ScamShield helps you recognise suspicious messages and links, learn how common scams work, and prepare safer next steps. Everything runs on your device.">
+  <meta name="theme-color" content="#0b3d5c">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#check" aria-label="ScamShield home">
+        <svg class="brand-mark" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false">
+          <path d="M16 2l11 4v9c0 7-4.6 12.6-11 15C9.600 27.600 5 22 5 15V6z" fill="#ffffff"/>
+          <path d="M11 16l4 4 7-8" fill="none" stroke="#0b3d5c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>
+          <span class="brand-name">ScamShield</span>
+          <span class="brand-tag">Digital Fraud Awareness for Everyone</span>
+        </span>
+      </a>
+      <button id="text-size" class="btn btn-ghost" type="button" aria-pressed="false">Larger text</button>
+    </div>
+    <nav class="wrap" aria-label="Main">
+      <ul class="tabs" id="tabs">
+        <li><a href="#check" data-view="check">Check</a></li>
+        <li><a href="#learn" data-view="learn">Learn</a></li>
+        <li><a href="#checklist" data-view="checklist">Checklist</a></li>
+        <li><a href="#privacy" data-view="privacy">Privacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="safety-banner" role="note">
+    <div class="wrap">
+      <strong>Safety note:</strong> ScamShield is an educational helper, not a fraud detector. It cannot prove that a message is safe or fake.
+      Never enter passwords, OTPs, PINs or card numbers here. Everything you type stays on this device.
+    </div>
+  </div>
+
+  <main id="main" class="wrap" tabindex="-1">
+    <noscript><p class="notice notice-warn">ScamShield needs JavaScript to run its checks on your device. Nothing is sent anywhere.</p></noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>All examples in ScamShield are fictional and made for education only. ScamShield does not replace your bank, the police or official reporting channels.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
